@@ -1,11 +1,39 @@
-html{
-    box-sizing: border-box;
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
+.header {
+    &__top {}
+    &__top-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    }
+    &__logo {}
+    &__text {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    &__phone {}
+    &__btn {}
+    &__menu {}
 }
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
+.wrapper {
 }
-.box{
-    display: flex;
+.haader {
+    &__box {}
 }
+.basket {
+}
+.nav {
+    &__list {}
+}
+
+
+
+
+
+
+
