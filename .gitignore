@@ -1,5 +1,10 @@
 # Object file
 *.o
+.DS_store
+.AppleDouble
+.LSOverride
 
+node_modules/
+app/css/
 # Ada Library Information
 *.ali
