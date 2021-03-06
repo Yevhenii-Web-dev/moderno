@@ -4,7 +4,9 @@
 
 
 .header {
-    &__top {}
+    &__top {
+        background-color: #fefefe; 
+    }
     &__top-inner {
         display: flex;
         justify-content: space-between;
@@ -14,21 +16,54 @@
     &__logo {}
     &__text {
         margin-left: auto;
-        margin-right: 20px;
+        margin-right: 50px;
+        span {
+        color: $orange;
     }
+    }
+    
     &__phone {}
-    &__btn {}
-    &__menu {}
-}
-.wrapper {
+    &__btn {
+        border-radius: 4px;
+        padding: 4px;
+        width: 72px;
+        text-align: center;
+        color: #fefefe;
+        font-size: 12px;
+        line-height: 24px;         
+    }
+    &__btn-login{
+        background-color: $green;
+    }
+    &__btn-register{
+        background-color: $orange;
+        margin-left: 7px;
+    }
+    &__menu {   
+        background-color: $bg;
+    }
 }
 .haader {
     &__box {}
 }
-.basket {
-}
+.basket {}
 .nav {
-    &__list {}
+    display: flex;
+        align-items: center;
+        height: 60px;
+    &__list  {
+        li {
+            & + li{
+               margin-left: 40px;  
+            }
+                a{
+                color: #fefefe;
+                font-size: 14px; 
+                }
+            
+        }
+        
+    }
 }
 
 

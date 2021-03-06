@@ -6,9 +6,10 @@ html{
 }
 body{
     font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: $color-text;
+    color: $text;
 }
 img{
     max-width: 100%;
