@@ -3,6 +3,8 @@
 @import 'fonts';
 
 
+
+// header start
 .header {
     &__top {
         background-color: #fefefe; 
@@ -49,8 +51,8 @@
 .basket {}
 .nav {
     display: flex;
-        align-items: center;
-        height: 60px;
+    align-items: center;
+    height: 60px;
     &__list  {
         li {
             & + li{
@@ -65,6 +67,72 @@
         
     }
 }
+
+// header end
+
+
+
+// search start
+.search {
+    min-height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__box {
+        padding: 150px 0 165px 0;
+        text-align: center;
+        color: #fefefe;
+    
+        &-title {
+            margin-bottom: 10px;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 72px;
+        }
+        &-text {
+            margin-bottom: 50px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        &-form {
+            position: relative;
+            max-width:  670px ;
+            margin: 0 auto;
+            input{
+                display: block;
+                width: 100%;
+                height: 56px;
+                border-radius: 4px;
+                box-shadow: 0px 1px 10px 0px rgba(124, 178, 64, 0.75);
+                background-color: #fefefe;
+                border: none;
+                font-size: 14px;
+                font-weight: 500;
+                padding-left: 25px;
+                padding-right: 60px;
+                &::placeholder{
+                    color: #99abb4;
+                    font-weight: 500;
+                }
+            }    
+            button{
+                position: absolute;
+                top: 16px;
+                right: 20px;
+                border: none;
+                background-color: transparent;
+                
+            }
+            
+            
+
+
+        }
+    }
+}
+// search end
+
 
 
 
